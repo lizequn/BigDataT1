@@ -6,6 +6,7 @@ import org.junit.Test;
 
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Iterator;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -62,18 +63,29 @@ public class testCassandraController {
         Calendar startcalendar = Calendar.getInstance();
         startcalendar.set(2000, 03, 01, 02, 23, 44);
         Calendar endcalendar = Calendar.getInstance();
-        endcalendar.set(2000,05,05,05,05,05);
+        endcalendar.set(2000,12,05,05,05,05);
         final int clientid = 7;
         final Date starttime = new Date(startcalendar.getTimeInMillis());
         final Date endtime = new Date(endcalendar.getTimeInMillis());
         Session session = controller.getSession();
         PreparedStatement statement = session.prepare("select * from logbyclient where clientid = ? and accesstime > ? and accesstime < ?");
-        ResultSet resultRow =  session.execute(new BoundStatement(statement).bind(clientid,starttime,endtime));
+        ResultSet resultRow =  session.execute(new BoundStatement(statement).bind(clientid,starttime,endtime).setFetchSize(100));
         int i =0;
-        for(Row row: resultRow){
+        Iterator<Row> iterator = resultRow.iterator();
+        while(iterator.hasNext()){
+            if(resultRow.getAvailableWithoutFetching() == 100 && !resultRow.isFullyFetched()){
+                resultRow.fetchMoreResults();
+                System.out.println("do fetch");
+            }
+            Row row = iterator.next();
             i++;
             System.out.println(row);
         }
+        System.out.println(i);
+//        for(Row row: resultRow){
+//            i++;
+//            System.out.println(row);
+//        }
         assertTrue(i>0);
     }
     @Test
