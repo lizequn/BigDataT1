@@ -1,18 +1,20 @@
 CREATE KEYSPACE  "task1" with replication =
-{'class': 'SimpleStrategy', 'replication_factor': 1 } ;
-use "task1";
-create table "logbyclient"(
-	clientid int,
-	accesstime timestamp,
-	url text,
-	action text,
-	primary key(clientid,accesstime)
-);
-use "task1";
-create table "logbyurl"(
-	clientid int,
-	accesstime timestamp,
-	url text,
-	action text,
-	primary key(url,accesstime)
-);
+  {'class': 'SimpleStrategy', 'replication_factor': 1 } ;
+  use "task1";
+  create table if not exists "logbyclient"(
+  	clientid int,
+  	accesstime timestamp,
+  	url text,
+  	status int,
+  	size int,
+  	primary key(clientid,accesstime)
+  );
+  use "task1";
+  create table if not exists "logbyurl"(
+  	clientid int,
+  	accesstime timestamp,
+  	url text,
+  	status int,
+    size int,
+  	primary key(url,accesstime)
+  );

@@ -14,8 +14,8 @@ public class CassandraController {
     private final String keyspace;
     private static CassandraController INSTANCE = new CassandraController();
     private CassandraController(){
-        this.keyspace = "Task1";
-        setupConnect();
+        this.keyspace = "task1";
+
     }
     public static CassandraController getInstance(){
         return INSTANCE;
@@ -25,16 +25,17 @@ public class CassandraController {
     }
 
     public Session getSession(){
+        setupConnect();
         return session;
     }
 
-    public void execute(String CQL){
-        session.execute(CQL);
-    }
 
 
     private void setupConnect(){
         cluster = new Cluster.Builder().addContactPoint("127.0.0.1").build();
+        session = cluster.connect();
+        session.execute("CREATE KEYSPACE if not exists  \"task1\" with replication =" +
+                "  {'class': 'SimpleStrategy', 'replication_factor': 1 } ;");
         session = cluster.connect(keyspace);
     }
 

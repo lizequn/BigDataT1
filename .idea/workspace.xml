@@ -2,20 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c996a2f7-27c7-47bf-942f-0dc02a3102f7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/DataInput.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/InitDataBase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Search4Task1.java" />
+      <change type="DELETED" beforePath="D:\javaProject2\BigDataT1\.idea\libraries\Maven__ch_qos_logback_logback_classic_1_0_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\javaProject2\BigDataT1\.idea\libraries\Maven__ch_qos_logback_logback_core_1_0_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\javaProject2\BigDataT1\.idea\libraries\Maven__com_clearspring_analytics_stream_2_5_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\javaProject2\BigDataT1\.idea\libraries\Maven__com_codahale_metrics_metrics_core_3_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\javaProject2\BigDataT1\.idea\libraries\Maven__com_datastax_cassandra_cassandra_driver_core_2_0_0_rc2.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\javaProject2\BigDataT1\.idea\libraries\Maven__com_google_guava_guava_15_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\javaProject2\BigDataT1\.idea\libraries\Maven__io_netty_netty_3_7_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\javaProject2\BigDataT1\.idea\libraries\Maven__it_unimi_dsi_fastutil_6_5_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\javaProject2\BigDataT1\.idea\libraries\Maven__junit_junit_4_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\javaProject2\BigDataT1\.idea\libraries\Maven__org_apache_commons_commons_lang3_3_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\javaProject2\BigDataT1\.idea\libraries\Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\javaProject2\BigDataT1\.idea\libraries\Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\javaProject2\BigDataT1\.idea\libraries\Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\javaProject2\BigDataT1\.idea\libraries\Maven__org_slf4j_slf4j_api_1_7_5.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/CassandraController.java" afterPath="$PROJECT_DIR$/src/main/java/CassandraController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Task1.iml" afterPath="$PROJECT_DIR$/Task1.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/cql" afterPath="$PROJECT_DIR$/src/main/resources/cql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/testCassandraController.java" afterPath="$PROJECT_DIR$/src/test/java/testCassandraController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Task1.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/CassandraController.java" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1391370884765" ignored="false" />
-    <file path="/testCassandraController.java" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1391472539277" ignored="false" />
+    <file path="/CassandraController.java" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1393256122828" ignored="false" />
+    <file path="/testCassandraController.java" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1393251241183" ignored="false" />
     <file path="/Tools.java" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1391376111165" ignored="false" />
     <file path="$USER_HOME$/csc8101/src/test/java/uk/ac/ncl/cs/csc8101/weblogcoursework/CassandraBasicIT.java" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1391373622935" ignored="false" />
     <file path="/CassandraBasicIT.java" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1391373547503" ignored="false" />
-    <file path="/Dummy.txt" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1391469059843" ignored="false" />
+    <file path="/Dummy.txt" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1393247668047" ignored="false" />
     <file path="$USER_HOME$/Task2/src/main/java/CassandraController.java" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1391469669345" ignored="false" />
     <file path="$USER_HOME$/Task2/src/main/java/TransferData.java" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1391469719648" ignored="false" />
     <file path="$USER_HOME$/Task2/src/main/java/DataInput.java" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1391469745829" ignored="false" />
+    <file path="$PROJECT_DIR$/../BigDataTask2/src/main/java/DataFilter.java" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1392648144611" ignored="false" />
+    <file path="/DataFilter.java" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1392648078603" ignored="false" />
+    <file path="$PROJECT_DIR$/../BigDataTask2/src/main/java/DataInput.java" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1391618435626" ignored="false" />
+    <file path="$PROJECT_DIR$/../BigDataTask2/src/test/java/testDataInput.java" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1391604540144" ignored="false" />
+    <file path="$PROJECT_DIR$/../BigDataTask2/src/main/java/SiteSession.java" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1392644167733" ignored="false" />
+    <file path="/SiteSession.java" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1392644164161" ignored="false" />
+    <file path="$PROJECT_DIR$/../BigDataTask2/src/test/java/testDataFilter.java" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1392643732554" ignored="false" />
+    <file path="/testDataFilter.java" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1391606632994" ignored="false" />
+    <file path="$PROJECT_DIR$/../BigDataTask2/src/test/java/testSiteSession.java" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1392643952737" ignored="false" />
+    <file path="$PROJECT_DIR$/../BigDataTask2/src/test/java/testInputData.java" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1392648843846" ignored="false" />
+    <file path="$PROJECT_DIR$/../BigDataTask2/src/main/java/DataCount.java" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1391615220921" ignored="false" />
+    <file path="/DataCount.java" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1391615138708" ignored="false" />
+    <file path="$PROJECT_DIR$/../BigDataTask2/.idea/workspace.xml" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1392649190920" ignored="false" />
+    <file path="/DataInput.java" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1393257411836" ignored="false" />
+    <file path="$PROJECT_DIR$/../BigDataTask2/src/main/java/Cql" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1392644174735" ignored="false" />
+    <file path="/Cql" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1392644174735" ignored="false" />
+    <file path="$PROJECT_DIR$/../BigDataTask2/src/main/java/DataStream.java" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1393247891578" ignored="false" />
+    <file path="/DataStream.java" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1392646045419" ignored="false" />
+    <file path="/cql" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1393248705264" ignored="false" />
+    <file path="/InitDataBase.java" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1393248969461" ignored="false" />
+    <file path="/Search4Task1.java" changelist="c996a2f7-27c7-47bf-942f-0dc02a3102f7" time="1393251083240" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,8 +125,19 @@
       <file leaf-file-name="CassandraController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CassandraController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="41" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0">
+            <state line="30" column="0" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Search4Task1.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Search4Task1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="34" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,10 +145,37 @@
       <file leaf-file-name="testCassandraController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testCassandraController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="40" selection-start="3268" selection-end="3268" vertical-scroll-proportion="0.8412256">
+            <state line="50" column="17" selection-start="1445" selection-end="1445" vertical-scroll-proportion="0.94426227">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InitDataBase.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/InitDataBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="49" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataInput.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DataInput.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="104" column="46" selection-start="4475" selection-end="4475" vertical-scroll-proportion="-13.923077">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cql" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/cql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="33" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -120,9 +199,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/CassandraController.java" />
         <option value="$PROJECT_DIR$/src/main/java/Tools.java" />
         <option value="$PROJECT_DIR$/src/main/resources/cql" />
+        <option value="$PROJECT_DIR$/src/main/java/InitDataBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CassandraController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataInput.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Search4Task1.java" />
         <option value="$PROJECT_DIR$/src/test/java/testCassandraController.java" />
       </list>
     </option>
@@ -145,8 +227,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1366" />
-    <option name="height" value="743" />
+    <option name="x" value="435" />
+    <option name="y" value="113" />
+    <option name="width" value="1890" />
+    <option name="height" value="1094" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -176,7 +260,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -191,7 +275,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Task1" />
+              <option name="myItemId" value="BigDataT1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -201,7 +285,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Task1" />
+              <option name="myItemId" value="BigDataT1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -223,7 +307,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Task1" />
+              <option name="myItemId" value="BigDataT1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -245,7 +329,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Task1" />
+              <option name="myItemId" value="BigDataT1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -263,7 +347,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,11 +362,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.testCassandraController.getInfoByClientIdAndDate">
+  <component name="RunManager" selected="JUnit.testCassandraController.getInformation">
     <configuration default="false" name="testCassandraController.insertRandomInformation" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Task1" />
@@ -375,6 +459,29 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="testCassandraController.getInformation" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Task1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testCassandraController" />
+      <option name="METHOD_NAME" value="getInformation" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -387,6 +494,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -415,19 +535,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -466,18 +573,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.testCassandraController.insertRandomInformation" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.testCassandraController" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.testCassandraController.getInfoByClientIdAndDate" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.testCassandraController.getInfoByUrl" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.testCassandraController.getInformation" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.testCassandraController.getInfoByClientIdAndDate" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.testCassandraController.getInfoByUrl" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.testCassandraController.insertRandomInformation" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.testCassandraController" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.testCassandraController.getInformation" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.testCassandraController.getInfoByClientIdAndDate" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.testCassandraController.getInfoByUrl" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.testCassandraController.insertRandomInformation" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.testCassandraController" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -542,10 +651,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="743" extended-state="0" />
-    <editor active="false" />
+    <frame x="435" y="113" width="1890" height="1094" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328152" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -556,19 +665,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277311" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32686085" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968238" sideWeight="0.68824166" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24429224" sideWeight="0.67058825" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4184874" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14731655" sideWeight="0.68824166" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31175837" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -638,6 +747,20 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/CassandraController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testCassandraController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="40" selection-start="3268" selection-end="3268" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -654,17 +777,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Tools.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="42" column="0" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testCassandraController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="81" column="85" selection-start="2971" selection-end="2971" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -675,38 +794,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/cql">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="14" selection-start="373" selection-end="373" vertical-scroll-proportion="0.44894367" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.12852113">
+        <state line="173" column="33" selection-start="6418" selection-end="6418" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tools.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="173" column="35" selection-start="6420" selection-end="6420" vertical-scroll-proportion="0.02640845">
+        <state line="13" column="13" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/cql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="33" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/datastax/cassandra/cassandra-driver-core/2.0.0-rc2/cassandra-driver-core-2.0.0-rc2.jar!/com/datastax/driver/core/exceptions/NoHostAvailableException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.6283367">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CassandraController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="41" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0">
+        <state line="30" column="0" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/InitDataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="49" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="46" selection-start="4475" selection-end="4475" vertical-scroll-proportion="-13.923077">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Search4Task1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="34" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testCassandraController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="40" selection-start="3268" selection-end="3268" vertical-scroll-proportion="0.8412256">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="50" column="17" selection-start="1445" selection-end="1445" vertical-scroll-proportion="0.94426227">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -4,6 +4,8 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import java.io.IOException;
+import java.text.ParseException;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.Iterator;
@@ -22,88 +24,27 @@ public class testCassandraController {
 
     @BeforeClass
     public static void getController(){
-        controller = CassandraController.getInstance();
+//        controller = CassandraController.getInstance();
 
     }
     @AfterClass
     public static void closeController(){
-        controller.shutDown();
-    }
-    //@Test
-    public void insertRandomInformation(){
-        Session session = controller.getSession();
-        PreparedStatement statement1 = session.prepare("insert into logbyclient (clientid,accesstime,url,action) values(?,?,?,?)");
-        PreparedStatement statement2 = session.prepare("insert into logbyurl (clientid,accesstime,url,action) values(?,?,?,?)");
-        int i =0;
-        int clientid;
-        Date accesstime;
-        String url;
-        String action;
-        Tools tools = new Tools();
-        ResultSetFuture  resultSetFuture1 = null;
-        ResultSetFuture  resultSetFuture2 = null;
-        while(i<10000){
-            i++;
-            clientid = tools.generateRandomClientId();
-            accesstime = tools.generateRandomTime();
-            url = tools.generateRandomUrl();
-            action = tools.generateRandomAccessAction();
-            resultSetFuture1 = session.executeAsync(new BoundStatement(statement1).bind(clientid,accesstime,url,action));
-            resultSetFuture2 = session.executeAsync(new BoundStatement(statement2).bind(clientid,accesstime,url,action));
-
-        }
-        resultSetFuture1.getUninterruptibly();
-        resultSetFuture2.getUninterruptibly();
-
-        assertEquals(i,10000);
-
+        //controller.shutDown();
     }
     @Test
-    public void getInfoByClientIdAndDate(){
+    public void getInformation() throws ParseException, InterruptedException, IOException {
+        InitDataBase.createKeySpaceAndTable();
+        DataInput input = new DataInput("D:/","loglite");
+        //input.transferData();
         Calendar startcalendar = Calendar.getInstance();
-        startcalendar.set(2000, 03, 01, 02, 23, 44);
+        startcalendar.set(1998, 03, 01, 02, 23, 44);
         Calendar endcalendar = Calendar.getInstance();
-        endcalendar.set(2000,12,05,05,05,05);
-        final int clientid = 7;
+        endcalendar.set(1998,05,05,05,05,05);
         final Date starttime = new Date(startcalendar.getTimeInMillis());
         final Date endtime = new Date(endcalendar.getTimeInMillis());
-        Session session = controller.getSession();
-        PreparedStatement statement = session.prepare("select * from logbyclient where clientid = ? and accesstime > ? and accesstime < ?");
-        ResultSet resultRow =  session.execute(new BoundStatement(statement).bind(clientid,starttime,endtime).setFetchSize(100));
-        int i =0;
-        Iterator<Row> iterator = resultRow.iterator();
-        while(iterator.hasNext()){
-            if(resultRow.getAvailableWithoutFetching() == 100 && !resultRow.isFullyFetched()){
-                resultRow.fetchMoreResults();
-                System.out.println("do fetch");
-            }
-            Row row = iterator.next();
-            i++;
-            System.out.println(row);
-        }
-        System.out.println(i);
-//        for(Row row: resultRow){
-//            i++;
-//            System.out.println(row);
-//        }
-        assertTrue(i>0);
+        Search4Task1.getInfoByClientIdAndDate(1,starttime,endtime);
     }
-    @Test
-    public void getInfoByUrl(){
-        Calendar startcalendar = Calendar.getInstance();
-        startcalendar.set(2000, 03, 01, 02, 23, 44);
-        Calendar endcalendar = Calendar.getInstance();
-        endcalendar.set(2000,05,05,05,05,05);
-        final Date starttime = new Date(startcalendar.getTimeInMillis());
-        final Date endtime = new Date(endcalendar.getTimeInMillis());
-        final String url = "BBB";
-        Session session = controller.getSession();
-        PreparedStatement statement = session.prepare("select count(*) from logbyurl where url = ? and accesstime > ? and accesstime < ?");
-        ResultSet resultRow =  session.execute(new BoundStatement(statement).bind(url,starttime,endtime));
-        long result = resultRow.all().get(0).getLong(0);
-        System.out.println(result);
-        assertTrue(result>=0);
-    }
+
 
 
 }
